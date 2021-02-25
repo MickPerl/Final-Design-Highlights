@@ -1,0 +1,51 @@
+\input{res/config/package.tex}
+
+\setPrimaryColor{UFGBlue} 
+\setLogos{res/img/logos/logo_orizzontale}{res/img/logos/logo_quadrato} 
+
+
+% -------------------------------------- Title Slide Information
+\begin{document}
+
+\title[Inf UFG]{Proposta di riprogettazione della\\
+Dashboard "Situazione Italia"\\
+del Dipartimento della Protezione Civile}
+\subtitle{Plain X - Final Design Highlights}
+
+\author{\textbf{X-Spark}: Michele Perlino, Tommaso Azzalin, Marco Ferrati}
+
+\institute[UFG] % (optional)
+{
+  Laurea Magistrale di Informatica\\
+  Università Alma Mater Studiorum
+}
+\date{2021}
+%-----------------------The next statement creates the title page.
+\frame[noframenumbering]{\titlepage}
+
+\linespread{1.15}
+%------------------------------------------------Slide 1
+\setLayout{vertical} 
+
+\begin{frame}
+    \frametitle{Indice}
+    {
+        \hypersetup{linkcolor=black}
+        \tableofcontents
+    }
+\end{frame}
+%---------------------------------------------------------
+
+
+% Sezione 1: Contesto di riferimento
+\subfile{res/sections/1-introduzione.tex}
+\clearpage
+
+% Sezione 2: Considerazioni sulla dashboard del DPC
+\subfile{res/sections/2-proposta.tex}
+\clearpage
+
+% Sezione 3: Riprogettazione proposta
+\subfile{res/sections/3-conclusione.tex}
+
+\end{document}
